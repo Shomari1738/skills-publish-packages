@@ -22,7 +22,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: ${{ Shomari1738 }}
+          username: ${{ shomari1738 }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build container
         uses: docker/build-push-action@v4
